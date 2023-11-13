@@ -8,7 +8,7 @@ function App() {
     <div className={sx.App}>
       <Header />
 
-      <div className="body" style={{}}>
+      <div className="body">
         <About />
         {/* <Contact /> */}
       </div>

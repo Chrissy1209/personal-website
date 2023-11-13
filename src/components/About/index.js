@@ -1,5 +1,4 @@
-// import Item from "../Item"
-import { useEffect } from "react";
+import Item from "../Item";
 import sx from "./About.module.sass";
 
 const About = () => {
@@ -25,15 +24,6 @@ const About = () => {
     text: ''
   }];
 
-//   useEffect(() => {
-//     const x = () => {
-//       itemData.map((e) => {
-//         console.log(e.name)
-//       })
-//     };
-//     x();
-//   }, []);
-
   return (
     <div className={sx.layout}>
       <div className={sx.container}>
@@ -46,80 +36,7 @@ const About = () => {
           </div>
         </div>
         <div className="item-wrapper">
-
-          {itemData.map((e) => {
-            return(
-              <div key={e.name} className={sx.item}>
-                <div className={sx.imageBox}>
-                  <img className={sx.image} alt={e.name} src={`image/item-icon-`+ e.id + `.png`} />
-                </div>
-                <div>
-                  <div className={sx.heading}>{e.name}</div>
-                  <div className={sx.body}>{e.date}</div>
-                  <div className="text-wrapper">
-                    <p>Beyond the joy of supporting so many young civic innovators explore their passions and skills, I am grateful for how much time it gave me to explore the roots of civilizational decline and fragility.</p>
-                    <p></p>
-                    <p>Given the growing number of existential risks facing Americans and all of humanity, my research has showed me that there may be nothing more important to humanity's long-term flourishing than investing in and building what I call "foundational technologies" that enable hyperlocal resilience, self-sustainability, dynamism, and ecological regeneration.</p>
-                    <p></p>
-                    <p>Beyond the joy of supporting so many young civic innovators explore their passions and skills, I am grateful for how much time it gave me to explore the roots of civilizational decline and fragility.</p>
-                    <p></p>
-                    <p>Given the growing number of existential risks facing Americans and all of humanity, my research has showed me that there may be nothing more important to humanity's long-term flourishing than investing in and building what I call "foundational technologies" that enable hyperlocal resilience, self-sustainability, dynamism, and ecological regeneration.</p>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
-
-          {/* <div className={sx.item}>
-            <div className={sx.imageBox}>
-              <img className={sx.image} alt="Maicoin" src="image/item-icon.png" />
-            </div>
-            <div>
-              <div className={sx.heading}>MaiCoin</div>
-              <div className={sx.body}>July 2022 - Present</div>
-              <div className="text-wrapper">
-                <p>Beyond the joy of supporting so many young civic innovators explore their passions and skills, I am grateful for how much time it gave me to explore the roots of civilizational decline and fragility.</p>
-                <p></p>
-                <p>Given the growing number of existential risks facing Americans and all of humanity, my research has showed me that there may be nothing more important to humanity's long-term flourishing than investing in and building what I call "foundational technologies" that enable hyperlocal resilience, self-sustainability, dynamism, and ecological regeneration.</p>
-                <p></p>
-                <p>Beyond the joy of supporting so many young civic innovators explore their passions and skills, I am grateful for how much time it gave me to explore the roots of civilizational decline and fragility.</p>
-                <p></p>
-                <p>Given the growing number of existential risks facing Americans and all of humanity, my research has showed me that there may be nothing more important to humanity's long-term flourishing than investing in and building what I call "foundational technologies" that enable hyperlocal resilience, self-sustainability, dynamism, and ecological regeneration.</p>
-              </div>
-            </div>
-          </div>
-
-          <div className={sx.item}>
-            <div className={sx.imageBox}>
-              <img className={sx.image} alt="Maicoin" src="image/item-icon.png" />
-            </div>
-            <div>
-              <div className={sx.heading}>MaiCoin</div>
-              <div className={sx.body}>July 2022 - Present</div>
-              <div className="text-wrapper">
-                <p>Beyond the joy of supporting so many young civic innovators explore their passions and skills, I am grateful for how much time it gave me to explore the roots of civilizational decline and fragility.</p>
-                <p></p>
-                <p>Given the growing number of existential risks facing Americans and all of humanity, my research has showed me that there may be nothing more important to humanity's long-term flourishing than investing in and building what I call "foundational technologies" that enable hyperlocal resilience, self-sustainability, dynamism, and ecological regeneration.</p>
-                <p></p>
-              </div>
-            </div>
-          </div>
-          <div className={sx.item}>
-            <div className={sx.imageBox}>
-              <img className={sx.image} alt="Maicoin" src="image/item-icon.png" />
-            </div>
-            <div>
-              <div className={sx.heading}>MaiCoin</div>
-              <div className={sx.body}>July 2022 - Present</div>
-              <div className="text-wrapper">
-                <p>Beyond the joy of supporting so many young civic innovators explore their passions and skills, I am grateful for how much time it gave me to explore the roots of civilizational decline and fragility.</p>
-                <p></p>
-                <p>Given the growing number of existential risks facing Americans and all of humanity, my research has showed me that there may be nothing more important to humanity's long-term flourishing than investing in and building what I call "foundational technologies" that enable hyperlocal resilience, self-sustainability, dynamism, and ecological regeneration.</p>
-                <p></p>
-              </div>
-            </div>
-          </div> */}
-
+          {itemData.map((e) => <Item key={e.id} id={e.id} name={e.name} date={e.date} text={e.text} />)}
         </div>
       </div>
     </div>
