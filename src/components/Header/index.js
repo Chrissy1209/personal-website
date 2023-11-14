@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div>
       <header className={sx.container}>
-        <div className={sx.gradientText}>
+        <div className={{}}>
           <p>
             <i>Hi, I'm</i>
             <br />
