@@ -4,11 +4,13 @@ const Header = () => {
   return (
     <div>
       <header className={sx.container}>
-        <p>
-          Hi, I'm
-          <br />
-          <b>CHRISSY HSU</b>
-        </p>
+        <div className={sx.gradientText}>
+          <p>
+            <i>Hi, I'm</i>
+            <br />
+            <b><span style={{ fontSize: '56px' }}>CHRISSY HSU</span></b>
+          </p>
+        </div>
       </header>
     </div>
   );

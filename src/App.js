@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import About from './components/About';
+import Footer from './components/Footer';
 import sx from './App.module.sass';
 
 function App() {
@@ -10,10 +11,9 @@ function App() {
 
       <div className="body">
         <About />
-        {/* <Contact /> */}
       </div>
 
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
