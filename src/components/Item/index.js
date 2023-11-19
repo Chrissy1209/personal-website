@@ -1,14 +1,14 @@
 import React, { ReactNode } from "react";
 import sx from "./Item.module.sass";
 
-type ItemProps = {
-  id: string;
-  name: string;
-  link: string | null;
-  date: string;
-  text: ReactNode;
-};
-const Item = ({ id, name, link, date, text }: ItemProps) => {
+// type ItemProps = {
+//   id: string;
+//   name: string;
+//   link: string | null;
+//   date: string;
+//   text: ReactNode;
+// };
+const Item = ({ id, name, link, date, text }) => {
   console.log(name)
   return (
     <div className={sx.item}>

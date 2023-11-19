@@ -1,4 +1,4 @@
-import Item from "../Item/index.tsx";
+import Item from "../Item";
 import sx from "./About.module.sass";
 
 const About = () => {
