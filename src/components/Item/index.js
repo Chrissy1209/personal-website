@@ -16,16 +16,17 @@ const Item = ({ id, name, link, date, text }) => {
         <img className={sx.image} alt={name} src={`image/item-icon-` + id + `.png`} />
       </div>
       <div>
-        <div className={sx.heading}>
-          {link ? (
-            <a className={sx.link} href={link} target="_blank">{name}</a>
-          ) : name}
-        </div>
-        <div className={sx.body}>{date}</div>
-        <div className="text-wrapper">
-          <div className={sx.textWrapper}>
-            {text}
+        <div className="title-wrapper">
+          <div className={sx.title}>
+            {link ? (
+              <a className={sx.link} href={link} target="_blank">{name}</a>
+            ) : name}
           </div>
+          <div className={sx.subTitle}>{date}</div>
+          {/* <div>Frontend / Blockchain Engineer Intern</div> */}
+        </div>
+        <div className={sx.textWrapper}>
+          {text}
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@ const Footer = () => {
           </a>
         </div>
         <div>
-          <a className={sx.target} href="https://github.com/Chrissy1209" target="_blank">
+          <a className={sx.target} href="https://www.linkedin.com/in/chrissy-hsu-999703227/" target="_blank">
             <img className={sx.image} alt='LinkedIn' src={`image/media-linkedin.jpeg`} />
           </a>
         </div>

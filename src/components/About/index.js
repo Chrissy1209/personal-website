@@ -40,7 +40,7 @@ const About = () => {
     id: 'grad-project',
     name: 'Graduation Project《繫念》',
     link: null,
-    date: 'Jul 2022 - Jun 2023',
+    date: 'Jul 2022 - Mar 2023',
     text:
       <>
         <p>
@@ -77,7 +77,12 @@ const About = () => {
       <div className={sx.container}>
         <div className="title-group">
           <h1 className={sx.title}>- My journey -</h1>
-          <p className={sx.subTitle}>I'm a Forbes 30 Under 30 creator and entrepreneur dedicated to building technologies and empowering people who are laying the foundation for a Golden Age for humanity.</p>
+          {/* <p className={sx.subTitle}>I'm a Forbes 30 Under 30 creator and entrepreneur dedicated to building technologies and empowering people who are laying the foundation for a Golden Age for humanity.</p>
+          <br /> */}
+          <p className={sx.subTitle}>
+            I'm a recent graduate and passionate frontend engineer with internship experience at MaiCoin.
+            Successfully contributed to projects, honing both development and project management skills and looking for new challenges to grow further in technology and coding!
+          </p>
         </div>
         <div className="item-wrapper">
           {itemData.map((e) => <Item key={e.id} id={e.id} name={e.name} link={e.link} date={e.date} text={e.text} />)}
