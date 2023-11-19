@@ -8,7 +8,7 @@ const Header = () => {
           <p>
             <i>Hi, I'm</i>
             <br />
-            <b><span style={{ fontSize: '56px' }}>CHRISSY HSU</span></b>
+            <b><span className={sx.title}>CHRISSY HSU</span></b>
           </p>
         </div>
       </header>

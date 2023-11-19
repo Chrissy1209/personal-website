@@ -9,7 +9,7 @@ import sx from "./Item.module.sass";
 //   text: ReactNode;
 // };
 const Item = ({ id, name, link, date, text }) => {
-  console.log(name)
+
   return (
     <div className={sx.item}>
       <div className={sx.imageBox}>
