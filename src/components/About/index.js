@@ -10,13 +10,13 @@ const About = () => {
     text:
       <>
         <p>
-          I participated in a summer exchange program in Sweden this past July, where I enrolled in a  <b>Leadership and Organizational Behavior</b> course alongside nearly 30 individuals from 12 different countries.
+          In July 2023, I participated in a summer exchange program in Sweden, where I enrolled in a <strong>Leadership and Organizational Behavior</strong> course alongside nearly 30 individuals from 12 different countries.
         </p>
         <p>
-          Our Swedish teacher organized a variety of engaging activities and discussions for us, including corporate role-playing. In this exercise, we assumed different roles within a company to gain insights into the internal decision-making process and the significance of communication, both within an organization and between companies.
+          I actively engaged a variety of activities and discussions, including treasure hunting and <strong>corporate role-playing</strong>. I assumed different roles within a company to gain insights into the internal decision-making process and the significance of <strong>communication</strong>, both within an organization and between companies.
         </p>
         <p>
-          Being part of such a diverse class, I acquired valuable skills in interacting, communicating, and collaborating with people from vastly different cultures. In the final week of the course, (I successfully contributed to a group analysis report on contemporary leadership figures.)
+          Being part of such a diverse class, I gained valuable skills in <strong>interacting, communicating, and collaborating</strong> with people from vastly different cultures, and I'm excited to apply these enriched perspectives to future challenges and opportunities.
         </p>
       </>
   }, {
@@ -27,13 +27,13 @@ const About = () => {
     text:
       <>
         <p>
-          I participated in a summer exchange program in Sweden this past July, where I enrolled in a  <span className={sx.strong}>Leadership and Organizational Behavior</span> course alongside nearly 30 individuals from 12 different countries.
+          In July 2023, I participated in a summer exchange program in Sweden, where I enrolled in a <strong>Leadership and Organizational Behavior</strong> course alongside nearly 30 individuals from 12 different countries.
         </p>
         <p>
-          Our Swedish teacher organized a variety of engaging activities and discussions for us, including corporate role-playing. In this exercise, we assumed different roles within a company to gain insights into the internal decision-making process and the significance of communication, both within an organization and between companies.
+          I actively engaged a variety of activities and discussions, including treasure hunting and <strong>corporate role-playing</strong>. I assumed different roles within a company to gain insights into the internal decision-making process and the significance of <strong>communication</strong>, both within an organization and between companies.
         </p>
         <p>
-          Being part of such a diverse class, I acquired valuable skills in interacting, communicating, and collaborating with people from vastly different cultures. In the final week of the course, (I successfully contributed to a group analysis report on contemporary leadership figures.)
+          Being part of such a diverse class, I gained valuable skills in <strong>interacting, communicating, and collaborating</strong> with people from vastly different cultures, and I'm excited to apply these enriched perspectives to future challenges and opportunities.
         </p>
       </>
   }, {
@@ -44,13 +44,13 @@ const About = () => {
     text:
       <>
         <p>
-          I participated in a summer exchange program in Sweden this past July, where I enrolled in a  <span className={sx.strong}>Leadership and Organizational Behavior</span> course alongside nearly 30 individuals from 12 different countries.
+          In July 2023, I participated in a summer exchange program in Sweden, where I enrolled in a <strong>Leadership and Organizational Behavior</strong> course alongside nearly 30 individuals from 12 different countries.
         </p>
         <p>
-          Our Swedish teacher organized a variety of engaging activities and discussions for us, including corporate role-playing. In this exercise, we assumed different roles within a company to gain insights into the internal decision-making process and the significance of communication, both within an organization and between companies.
+          I actively engaged a variety of activities and discussions, including treasure hunting and <strong>corporate role-playing</strong>. I assumed different roles within a company to gain insights into the internal decision-making process and the significance of <strong>communication</strong>, both within an organization and between companies.
         </p>
         <p>
-          Being part of such a diverse class, I acquired valuable skills in interacting, communicating, and collaborating with people from vastly different cultures. In the final week of the course, (I successfully contributed to a group analysis report on contemporary leadership figures.)
+          Being part of such a diverse class, I gained valuable skills in <strong>interacting, communicating, and collaborating</strong> with people from vastly different cultures, and I'm excited to apply these enriched perspectives to future challenges and opportunities.
         </p>
       </>
   }, {
@@ -61,13 +61,13 @@ const About = () => {
     text:
       <>
         <p>
-          I participated in a summer exchange program in Sweden this past July, where I enrolled in a  <span className={sx.strong}>Leadership and Organizational Behavior</span> course alongside nearly 30 individuals from 12 different countries.
+          In July 2023, I participated in a summer exchange program in Sweden, where I enrolled in a <strong>Leadership and Organizational Behavior</strong> course alongside nearly 30 individuals from 12 different countries.
         </p>
         <p>
-          Our Swedish teacher organized a variety of engaging activities and discussions for us, including corporate role-playing. In this exercise, we assumed different roles within a company to gain insights into the internal decision-making process and the significance of communication, both within an organization and between companies.
+          I actively engaged a variety of activities and discussions, including treasure hunting and <strong>corporate role-playing</strong>. I assumed different roles within a company to gain insights into the internal decision-making process and the significance of <strong>communication</strong>, both within an organization and between companies.
         </p>
         <p>
-          Being part of such a diverse class, I acquired valuable skills in interacting, communicating, and collaborating with people from vastly different cultures. In the final week of the course, (I successfully contributed to a group analysis report on contemporary leadership figures.)
+          Being part of such a diverse class, I gained valuable skills in <strong>interacting, communicating, and collaborating</strong> with people from vastly different cultures, and I'm excited to apply these enriched perspectives to future challenges and opportunities.
         </p>
       </>
   }];
@@ -80,8 +80,7 @@ const About = () => {
           {/* <p className={sx.subTitle}>I'm a Forbes 30 Under 30 creator and entrepreneur dedicated to building technologies and empowering people who are laying the foundation for a Golden Age for humanity.</p>
           <br /> */}
           <p className={sx.subTitle}>
-            I'm a recent graduate and passionate frontend engineer with internship experience at MaiCoin.
-            Successfully contributed to projects, honing both development and project management skills and looking for new challenges to grow further in technology and coding!
+            I'm a recent graduate and passionate frontend engineer with internship experience at MaiCoin, I've successfully contributed to projects, honing both development and project management skills, and looking for new challenges to grow further in technology and coding!
           </p>
         </div>
         <div className="item-wrapper">
