@@ -13,10 +13,10 @@ const About = () => {
           In July 2023, I participated in a summer exchange program in Sweden, where I enrolled in a <strong>Leadership and Organizational Behavior</strong> course alongside nearly 30 individuals from 12 different countries.
         </p>
         <p>
-          I actively engaged a variety of activities and discussions, including treasure hunting and <strong>corporate role-playing</strong>. I assumed different roles within a company to gain insights into the internal decision-making process and the significance of <strong>communication</strong>, both within an organization and between companies.
+          I actively engaged a variety of activities and discussions, including treasure hunting and <strong>corporate role-playing</strong>. We assumed different roles within a company to gain insights into the internal decision-making process and the significance of <strong>communication</strong>, both within an organization and between companies.
         </p>
         <p>
-          Being part of such a diverse class, I gained valuable skills in <strong>interacting, communicating, and collaborating</strong> with people from vastly different cultures, and I'm excited to apply these enriched perspectives to future challenges and opportunities.
+          It was an incredibly rewarding experience. Being part of such a diverse class, I acquired valuable skills in <strong>interacting, communicating, and collaborating</strong> with people from vastly different cultures, and succeeded in a group project on <strong><a className={sx.link} href="https://drive.google.com/file/d/1vh9lmS-SFPL-_R-JAsicbYHWX5nQ9IEi/view?usp=sharing" target="_blank">Contemporary Leadership Figures</a></strong>.
         </p>
       </>
   }, {
@@ -27,8 +27,7 @@ const About = () => {
     text:
       <>
         <p>
-          In July 2023, I participated in a summer exchange program in Sweden, where I enrolled in a <strong>Leadership and Organizational Behavior</strong> course alongside nearly 30 individuals from 12 different countries.
-        </p>
+          I pursued a frontend/blockchain engineering internship at MaiCoin during my last year of college.        </p>
         <p>
           I actively engaged a variety of activities and discussions, including treasure hunting and <strong>corporate role-playing</strong>. I assumed different roles within a company to gain insights into the internal decision-making process and the significance of <strong>communication</strong>, both within an organization and between companies.
         </p>
@@ -44,7 +43,7 @@ const About = () => {
     text:
       <>
         <p>
-          In July 2023, I participated in a summer exchange program in Sweden, where I enrolled in a <strong>Leadership and Organizational Behavior</strong> course alongside nearly 30 individuals from 12 different countries.
+          While I worked at MaiCoin, I concurrently managed my graduation project. It was the most fulfilling period as I led a team of 6 and earned the Best Popularity Award. 
         </p>
         <p>
           I actively engaged a variety of activities and discussions, including treasure hunting and <strong>corporate role-playing</strong>. I assumed different roles within a company to gain insights into the internal decision-making process and the significance of <strong>communication</strong>, both within an organization and between companies.
