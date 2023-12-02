@@ -4,7 +4,8 @@ import sx from "./About.module.sass";
 const links = {
   leadershipFigures: 'https://drive.google.com/file/d/1vh9lmS-SFPL-_R-JAsicbYHWX5nQ9IEi/view?usp=sharing',
   qubic: 'https://www.qubic.market/?gclid=Cj0KCQiAgOefBhDgARIsAMhqXA6mrn45trkttgGmtAGN59SSA6HWlbLfn5A3wmMC872WLBDizE1n7ToaAqVEEALw_wcB',
-  graduationProject: 'https://drive.google.com/file/d/14gQrviCTfyf2MHIN3QFCgGyZLBIiEDeu/view?usp=share_link'
+  graduationProject: 'https://drive.google.com/file/d/14gQrviCTfyf2MHIN3QFCgGyZLBIiEDeu/view?usp=share_link',
+  codeclub: 'https://github.com/Chrissy1209/code-club'
 };
 
 const itemData = [{
@@ -61,13 +62,24 @@ const itemData = [{
   text:
     <>
       <p>
-        While I worked at MaiCoin, I concurrently managed my graduation project. It was the most fulfilling period as I led a team of 6 and earned the Best Popularity Award.
+        While I was immersed in my role at MaiCoin, I simultaneously managed my graduation project. It was the most fulfilling period as I <strong>led a team of 6</strong> and earned the <strong>Best Popularity Award</strong>.
       </p>
+      <ul style={{ paddingInlineStart: '2rem' }}>
+        <li>
+          Integrated human-machine interaction to create a 3*3m physical escape room, including 4 major mechanisms.
+        </li>
+        <li>
+          <strong>Performed all presentations, facilitated internal communications, and managed tasks.</strong>
+        </li>
+        <li>
+          Served as a social media manager, ideating social campaigns, and handling both posting and monitoring.
+        </li>
+        <li>
+          Successfully executed <strong>two exhibitions</strong>, both on-campus and in Taipei, catering to over 90 groups.
+        </li>
+      </ul>
       <p>
-        I actively engaged a variety of activities and discussions, including treasure hunting and <strong>corporate role-playing</strong>. I assumed different roles within a company to gain insights into the internal decision-making process and the significance of <strong>communication</strong>, both within an organization and between companies.
-      </p>
-      <p>
-        Being part of such a diverse class, I gained valuable skills in <strong>interacting, communicating, and collaborating</strong> with people from vastly different cultures, and I'm excited to apply these enriched perspectives to future challenges and opportunities <strong><a className={sx.link} href={links.graduationProject} target="_blank">結案報告書</a></strong>.
+        See the final report <strong><a className={sx.link} href={links.graduationProject} target="_blank">here</a></strong>.
       </p>
     </>
 }, {
@@ -78,13 +90,14 @@ const itemData = [{
   text:
     <>
       <p>
-        In July 2023, I participated in a summer exchange program in Sweden, where I enrolled in a <strong>Leadership and Organizational Behavior</strong> course alongside nearly 30 individuals from 12 different countries.
+        Department of Information Communication.
       </p>
       <p>
         I actively engaged a variety of activities and discussions, including treasure hunting and <strong>corporate role-playing</strong>. I assumed different roles within a company to gain insights into the internal decision-making process and the significance of <strong>communication</strong>, both within an organization and between companies.
       </p>
       <p>
-        Being part of such a diverse class, I gained valuable skills in <strong>interacting, communicating, and collaborating</strong> with people from vastly different cultures, and I'm excited to apply these enriched perspectives to future challenges and opportunities.
+        {/* Being part of such a diverse class, I gained valuable skills in <strong>interacting, communicating, and collaborating</strong> with people from vastly different cultures, and I'm excited to apply these enriched perspectives to future challenges and opportunities. */}
+        <strong><a className={sx.link} href={links.codeclub} target="_blank">Code-club</a></strong>.
       </p>
     </>
 }];
