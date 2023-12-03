@@ -1,14 +1,25 @@
 .container
-  min-height: 100vh
   background-image: url("../../../public/image/user-image.jpg")
+  min-height: 90vh
   background-size: cover
-  background-position: center 25%
+  background-position: 60% 25%
   background-attachment: fixed
   background-repeat: no-repeat
   display: flex
   align-items: center
   justify-content: center
   transition: font-size 1s ease 0s, background-position 1s ease 0s
+
+  // min-height: 100vh
+  // background-image: url("../../../public/image/user-image.jpg")
+  // background-size: cover
+  // background-position: center 25%
+  // background-attachment: fixed
+  // background-repeat: no-repeat
+  // display: flex
+  // align-items: center
+  // justify-content: center
+  // transition: font-size 1s ease 0s, background-position 1s ease 0s
 
 .gradientText
   font-size: calc(10px + 3vmin)
@@ -18,14 +29,33 @@
   background-clip: text
 
 .title
-  font-size: 56px
+  font-size: 36px
+  // font-size: 56px
 
-@media only screen and (max-width: 527px)
-  .container
-    min-height: 90vh
-    background-image: url("../../../public/image/user-image-mobile.jpg")
-    background-size: contain
-    background-position: unset
+// @media only screen and (max-width: 527px)
+//   .container
+//     min-height: 90vh
+//     background-image: url("../../../public/image/user-image-mobile.jpg")
+//     background-size: contain
+//     background-position: unset
+//     background-size: 527px
+//     background-position: 60% 25%
 
+//   .title
+//     font-size: 36px
+
+@media screen and (min-width:481px)
   .title
-    font-size: 36px
+    font-size: 56px
+
+  .container
+    min-height: 100vh
+    background-image: url("../../../public/image/user-image.jpg")
+    background-size: cover
+    background-position: center 25%
+    background-attachment: fixed
+    background-repeat: no-repeat
+    display: flex
+    align-items: center
+    justify-content: center
+    transition: font-size 1s ease 0s, background-position 1s ease 0s
