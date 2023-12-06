@@ -86,18 +86,15 @@ const itemData = [{
   id: 'yzu',
   name: 'Yuan Ze University',
   link: 'https://infocom.yzu.edu.tw',
-  date: 'Sep 2019 - Sep 2023',
+  date: 'B.S. in ICT, Sep 2019 - Sep 2023',
   text:
     <>
       <p>
-        Department of Information Communication.
+        My experience XXXX in <strong><a className={sx.link} href={links.codeclub} target="_blank">Code-club</a></strong> showed me the power of XXXXX.  My senior summer vocation abroad at Linköping humbled me to explore my place in the world. My engagement in graduation project exercised my creative muscle, sparked my obsession with XXXX, and strengthened my tolerance to adversity. My internships at MaiCoin helped me discover my love for building products that XXXXX.
+        {/* Pet Pets, interactive Website created with html5, css3 and JavaScript / jQuery. Received an honorable mention in the YZU 2021 Maker Competition. */}
       </p>
       <p>
-        I actively engaged a variety of activities and discussions, including treasure hunting and <strong>corporate role-playing</strong>. I assumed different roles within a company to gain insights into the internal decision-making process and the significance of <strong>communication</strong>, both within an organization and between companies.
-      </p>
-      <p>
-        {/* Being part of such a diverse class, I gained valuable skills in <strong>interacting, communicating, and collaborating</strong> with people from vastly different cultures, and I'm excited to apply these enriched perspectives to future challenges and opportunities. */}
-        <strong><a className={sx.link} href={links.codeclub} target="_blank">Code-club</a></strong>.
+        YZU showed me what I love to do, gifted me with a love for learning, and empowered me to apply my skills and contribute meaningfully to the ever-evolving field of web development.
       </p>
     </>
 }];
