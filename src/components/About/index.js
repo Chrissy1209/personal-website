@@ -90,11 +90,10 @@ const itemData = [{
   text:
     <>
       <p>
-        My experience XXXX in <strong><a className={sx.link} href={links.codeclub} target="_blank">Code-club</a></strong> showed me the power of XXXXX.  My senior summer vocation abroad at Linköping humbled me to explore my place in the world. My engagement in graduation project exercised my creative muscle, sparked my obsession with XXXX, and strengthened my tolerance to adversity. My internships at MaiCoin helped me discover my love for building products that XXXXX.
-        {/* Pet Pets, interactive Website created with html5, css3 and JavaScript / jQuery. Received an honorable mention in the YZU 2021 Maker Competition. */}
+        My experience at <strong><a className={sx.link} href={links.codeclub} target="_blank">Code-club</a></strong> highlighted the power of collaborative problem-solving and teamwork. My senior summer vocation abroad at Linköping exposed me to diverse perspectives. My engagement in graduation project honed my creative abilities and resilience in the face of challenges. My internships at MaiCoin helped me discover my love for building products that contribute to enhancing user experiences and addressing real-world needs.
       </p>
       <p>
-        YZU showed me what I love to do, gifted me with a love for learning, and empowered me to apply my skills and contribute meaningfully to the ever-evolving field of web development.
+        YZU not only showed me what I love to do but also instilled in me a commitment to continuous growth and apply my skills meaningfully to the ever-evolving field of web development.
       </p>
     </>
 }];
