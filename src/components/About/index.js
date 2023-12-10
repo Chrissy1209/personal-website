@@ -33,14 +33,14 @@ const itemData = [{
   text:
     <>
       <p>
-        Throughout my last year of college, I pursued a <strong>frontend/blockchain engineering</strong> internship at MaiCoin, engaging daily stand-ups, weekly one-on-one meetings, and solving problems through collaborative efforts.
+        Throughout my last year of college, I pursued a <strong>frontend/blockchain engineering</strong> internship at MaiCoin, engaging in daily stand-ups, weekly one-on-one meetings, and solving problems through collaborative efforts.
       </p>
       <p>
         - - -
       </p>
       <ul style={{ paddingInlineStart: '2rem' }}>
         <li>
-          Established an <strong>admin dashboard</strong> to support daily operations for <strong><a className={sx.link} href={links.qubic} target="_blank">Qubic</a></strong> (an NFT Wallet), managing KYC user list and push notifications using Next.js, TypeScript and Material-UI.
+          Established an <strong>admin dashboard</strong> to support daily operations for <strong><a className={sx.link} href={links.qubic} target="_blank">Qubic</a></strong> (an NFT Wallet), managing the KYC user list and push notifications using Next.js, TypeScript and Material-UI.
         </li>
         <li>
           Built an <strong>NFT verification platform</strong> for users who want to redeem their NFT by Next.js, Firebase cloud function, and GraphQL.
@@ -105,7 +105,7 @@ const About = () => {
         <div className="title-group">
           <h1 className={sx.title}>- My journey -</h1>
           <p className={sx.subTitle}>
-            I'm a recent graduate and passionate frontend engineer with internship experience at MaiCoin, I've successfully contributed to projects, honing both development and project management skills, and looking for new challenges to grow further in technology and coding!
+            I'm a recent graduate and passionate frontend engineer with internship experience at MaiCoin. I've successfully contributed to projects, honing both development and project management skills, and I'm looking for new challenges to grow further in technology and coding!
           </p>
         </div>
         <div className="item-wrapper">
