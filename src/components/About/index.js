@@ -69,7 +69,7 @@ const itemData = [{
           Integrated human-machine interaction to create a 3*3m physical escape room, including 4 major mechanisms.
         </li>
         <li>
-          <strong>Performed all presentations, facilitated internal communications, and managed tasks.</strong>
+          <strong>Conducted presentations, facilitated internal communications, and managed tasks.</strong>
         </li>
         <li>
           Served as a social media manager, ideating social campaigns, and handling both posting and monitoring.
@@ -79,7 +79,7 @@ const itemData = [{
         </li>
       </ul>
       <p>
-        See the final report <strong><a className={sx.link} href={links.graduationProject} target="_blank">here</a></strong>.
+        View the final report <strong><a className={sx.link} href={links.graduationProject} target="_blank">here</a></strong>.
       </p>
     </>
 }, {
