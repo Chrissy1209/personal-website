@@ -2,7 +2,7 @@ import sx from "./Header.module.sass";
 
 const Header = () => {
   return (
-    <div>
+    <div className={sx.test}>
       <header className={sx.container}>
         <div className={sx.gradientText}>
           <p>
