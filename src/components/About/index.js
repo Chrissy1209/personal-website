@@ -62,11 +62,11 @@ const itemData = [{
   text:
     <>
       <p>
-        While I was immersed in my role at MaiCoin, I simultaneously managed my graduation project. It was the most fulfilling period as I <strong>led a team of 6</strong> and earned the <strong>Best Popularity Award</strong>.
+        While I was immersed in my role at MaiCoin, I simultaneously managed my graduation project. It was the most fulfilling period as I <strong>led a team of 6</strong> and earned the <strong>Most Popular Award</strong>.
       </p>
       <ul style={{ paddingInlineStart: '2rem' }}>
         <li>
-          Integrated human-machine interaction to create a 3*3m physical escape room, including 4 major mechanisms.
+          Integrated human-machine interaction to create a 3*3m physical escape room, including 4 major mechanisms, using Arduino.
         </li>
         <li>
           <strong>Conducted presentations, facilitated internal communications, and managed tasks.</strong>
