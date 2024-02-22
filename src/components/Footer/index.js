@@ -3,7 +3,7 @@ import sx from "./Footer.module.sass";
 const links = {
   github: 'https://github.com/Chrissy1209',
   linkedin: 'https://www.linkedin.com/in/chrissy-hsu-999703227/',
-  resume: 'https://drive.google.com/file/d/1q8HJRU-pDIwfuEPhGwKoBNqQIJk64Yzi/view?usp=share_link'
+  resume: 'https://drive.google.com/file/d/1YVxHNzJHyTuIzdPRNwAIlKWClniJ6hCe/view?usp=share_link',
 };
 
 const Footer = () => {
