@@ -1,13 +1,6 @@
-import React, { ReactNode } from "react";
+import React from "react";
 import sx from "./Item.module.sass";
 
-// type ItemProps = {
-//   id: string;
-//   name: string;
-//   link: string | null;
-//   date: string;
-//   text: ReactNode;
-// };
 const Item = ({ id, name, link, date, text }) => {
 
   return (
@@ -19,7 +12,7 @@ const Item = ({ id, name, link, date, text }) => {
         <div className="title-wrapper">
           <div className={sx.title}>
             {link ? (
-              <a className={sx.link} href={link} target="_blank">{name}</a>
+              <a className={sx.link} href={link} target="_blank" rel="noreferrer">{name}</a>
             ) : name}
           </div>
           <div className={sx.subTitle}>{date}</div>

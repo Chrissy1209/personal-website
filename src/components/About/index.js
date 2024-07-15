@@ -22,7 +22,7 @@ const itemData = [{
         During the program, I actively engaged in various hands-on activities that allowed me to apply theoretical knowledge to real-world scenarios. One notable instance was a <strong>corporate role-playing</strong>, where we assumed different roles within a company to simulate complex <strong>decision-making processes</strong> and enhance our <strong>problem-solving skills</strong>.
       </p>
       <p>
-        Being part of such a diverse class, I acquired valuable skills in <strong>interacting, communicating, and collaborating</strong> with people from vastly different cultures, and excelled in a group project on <strong><a className={sx.link} href={links.leadershipFigures} target="_blank">Contemporary Leadership Figures</a></strong>.
+        Being part of such a diverse class, I acquired valuable skills in <strong>interacting, communicating, and collaborating</strong> with people from vastly different cultures, and excelled in a group project on <strong><a className={sx.link} href={links.leadershipFigures} target="_blank" rel="noreferrer">Contemporary Leadership Figures</a></strong>.
       </p>
     </>
 }, {
@@ -40,7 +40,7 @@ const itemData = [{
       </p>
       <ul style={{ paddingInlineStart: '2rem' }}>
         <li>
-          Established an <strong>admin dashboard</strong> to support daily operations for <strong><a className={sx.link} href={links.qubic} target="_blank">Qubic</a></strong> (an NFT Wallet), managing the KYC user list and push notifications using Next.js, TypeScript and Material-UI.
+          Established an <strong>admin dashboard</strong> to support daily operations for <strong><a className={sx.link} href={links.qubic} target="_blank" rel="noreferrer">Qubic</a></strong> (an NFT Wallet), managing the KYC user list and push notifications using Next.js, TypeScript and Material-UI.
         </li>
         <li>
           Built an <strong>NFT verification platform</strong> for users who want to redeem their NFT by Next.js, Firebase cloud function, and GraphQL.
@@ -51,7 +51,6 @@ const itemData = [{
       </ul>
       <p>
         This journey proved to be incredibly rewarding. I thrived in an environment that fostered <strong>continuous learning</strong> and refined my <strong>technical proficiency</strong>. Eager to contribute these experiences to dynamic projects and further advance in future roles.
-        {/* It was an incredibly rewarding experience. Eager to apply these experiences in future roles, I look forward to contributing my skills to dynamic projects and further advancing as a frontend engineer. */}
       </p>
     </>
 }, {
@@ -79,7 +78,7 @@ const itemData = [{
         </li>
       </ul>
       <p>
-        View the final report <strong><a className={sx.link} href={links.graduationProject} target="_blank">here</a></strong>.
+        View the final report <strong><a className={sx.link} href={links.graduationProject} target="_blank" rel="noreferrer">here</a></strong>.
       </p>
     </>
 }, {
@@ -90,7 +89,7 @@ const itemData = [{
   text:
     <>
       <p>
-        My experience at <strong><a className={sx.link} href={links.codeclub} target="_blank">Code-club</a></strong> highlighted the power of collaborative problem-solving and teamwork. My senior summer vocation abroad at Linköping exposed me to diverse perspectives. My engagement in graduation project honed my creative abilities and resilience in the face of challenges. My internships at MaiCoin helped me discover my love for building products that contribute to enhancing user experiences and addressing real-world needs.
+        My experience at <strong><a className={sx.link} href={links.codeclub} target="_blank" rel="noreferrer">Code-club</a></strong> highlighted the power of collaborative problem-solving and teamwork. My senior summer vocation abroad at Linköping exposed me to diverse perspectives. My engagement in graduation project honed my creative abilities and resilience in the face of challenges. My internships at MaiCoin helped me discover my love for building products that contribute to enhancing user experiences and addressing real-world needs.
       </p>
       <p>
         YZU not only showed me what I love to do but also instilled in me a commitment to continuous growth and apply my skills meaningfully to the ever-evolving field of web development.
